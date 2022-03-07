@@ -10,7 +10,6 @@
 #include <stdint.h>
 
 #if defined(STM32G0)
-#include "stm32g0xx_hal_def.h"
 #include "stm32g0xx_hal.h"
 #endif
 

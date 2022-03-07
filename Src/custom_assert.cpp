@@ -4,7 +4,7 @@
  *  Author: Martin Danek, martin@embedblog.eu
  */
 
-#include "stm32g0xx_hal_def.h"
+#include "hal_inc.h"
 
 __WEAK void custom_assert(const char* file, uint32_t line)
 {

@@ -19,6 +19,7 @@
 #define ASSERT(expr)						do {if(!(expr)) custom_assert(__FILENAME__, __LINE__);} while(0)
 #define ASSERT_WITH_RETURN(expr)			do {if(!(expr)) {custom_assert(__FILENAME__, __LINE__); return;}} while(0)
 #define ASSERT_WITH_RETURN_VALUE(expr, val)	do {if(!(expr)) {custom_assert(__FILENAME__, __LINE__); return val;}} while(0)
+#endif
 
 void custom_assert(const char* file, uint32_t line);
 
