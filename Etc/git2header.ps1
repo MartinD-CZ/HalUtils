@@ -3,7 +3,7 @@ $gitVersion =  &"C:\Program Files\Git\cmd\git.exe" describe --long --dirty --tag
 
 $gitSplit = $gitVersion.Split('-')
 $currentDate = Get-Date -Format "dd.MM.yyyy HH:mm"
-$targetFile = $PSScriptRoot + "\Inc\version.h"
+$targetFile = $PSScriptRoot + "\App\version.h"
 
 Clear-Content -Path $targetFile
 Add-Content -Path $targetFile -Value ("#ifndef VERSION_H_`n#define VERSION_H_`n")
