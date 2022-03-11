@@ -1,3 +1,5 @@
+#how to use: add to Properties -> C/C++ Build -> Settings -> Build steps -> Pre-build command the following: powershell.exe "..\git2header.ps1"
+
 $gitVersion =  &"C:\Program Files\Git\cmd\git.exe" describe --long --dirty --tags
 #echo $gitVersion
 
