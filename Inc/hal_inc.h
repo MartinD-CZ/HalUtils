@@ -14,6 +14,8 @@
 #include "stm32g0xx_hal.h"
 #elif defined(STM32G4)
 #include "stm32g4xx_hal.h"
+#elif defined(STM32WB)
+#include "stm32wbxx_hal.h"
 #endif
 
 
